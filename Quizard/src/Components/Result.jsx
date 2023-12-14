@@ -19,7 +19,7 @@ const Result = (props) => {
        <div className='score-container'>
 
         <h1> SCORE : {props.score}</h1>
-        <h2>{props.score} OUT OF 5 : <span>{(props.score/5)*100}%</span></h2>
+        <h2>{props.score} Out Of 5 Is Correct - <span>{(props.score/5)*100}%</span></h2>
         <div><button className='play-btn' onClick={props.onSmash}>PLAY AGAIN</button></div>
 
        </div>
