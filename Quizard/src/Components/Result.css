@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.result-container{
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.score-container{
+    background-color: #cdedebe1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 100px;
+    margin-top: 10px;
+}
+
+
+
+#darkmodebtn{
+    height: 80px;
+    width: 170px;
+    border-radius: 25px;
+    
+}
+
+h2{
+    font-size: 40px;
+    margin: 10px;
+}
+
+.play-btn{
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+}
+
+
+.dark-theme{
+    background-image: url("../assets/output3.jpeg");
+}
+
+.light-theme{
+    background-image: url("../assets/output2.jpeg");
+}
